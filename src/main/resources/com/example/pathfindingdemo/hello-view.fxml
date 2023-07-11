@@ -26,6 +26,7 @@
             <Label alignment="CENTER" layoutX="12.0" layoutY="14.0" prefHeight="17.0" prefWidth="149.0" text="Horizontal" />
             <Label alignment="CENTER" layoutX="10.0" layoutY="73.0" prefHeight="17.0" prefWidth="149.0" text="Vertical" />
             <Button fx:id="clickMe" layoutX="61.0" layoutY="144.0" mnemonicParsing="false" onAction="#generateGrid" text="Click Me" />
+            <Button layoutX="58.0" layoutY="270.0" mnemonicParsing="false" onAction="#clearGrid" text="Button" />
          </children>
       </Pane>
    </children>
