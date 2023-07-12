@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a90bfc-dfcc-4ff6-ab88-a3001d7dde74" name="Changes" comment="Initial Comit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pathfindingdemo/CanvasManager.java" afterDir="false" />
+    <list default="true" id="c8a90bfc-dfcc-4ff6-ab88-a3001d7dde74" name="Changes" comment="Added basic logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pathfindingdemo/CanvasManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pathfindingdemo/CanvasManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pathfindingdemo/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pathfindingdemo/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/pathfindingdemo/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/pathfindingdemo/hello-view.fxml" afterDir="false" />
     </list>
@@ -78,11 +77,26 @@
       <option name="presentableId" value="Default" />
       <updated>1688551603542</updated>
       <workItem from="1688551604613" duration="1389000" />
-      <workItem from="1689077365427" duration="5381000" />
+      <workItem from="1689077365427" duration="5969000" />
+      <workItem from="1689144641022" duration="16000" />
+      <workItem from="1689167959767" duration="1392000" />
     </task>
+    <task id="LOCAL-00001" summary="Added basic logic">
+      <option name="closed" value="true" />
+      <created>1689083398691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689083398691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added basic logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic logic" />
   </component>
 </project>

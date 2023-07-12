@@ -9,6 +9,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
 
 public class HelloController {
+    private final int MAX_WIDTH = 45;
+    private final int MAX_HEIGHT = 45;
+
     @FXML
     private TextField hSize;
     @FXML
@@ -29,15 +32,14 @@ public class HelloController {
         cm.setCanvasSize((int) myCanvas.getHeight(), (int) myCanvas.getWidth());
 
         // save requested height and width
-        height = Integer.parseInt(vSize.getText());
-        width = Integer.parseInt(hSize.getText());
+        height = Math.min(Integer.parseInt(vSize.getText()), MAX_HEIGHT);
+        width = Math.min(Integer.parseInt(hSize.getText()), MAX_WIDTH);
+
+        hSize.setText(Integer.toString(height));
+        vSize.setText(Integer.toString(width));
 
         // Generate the grid
         cm.drawGrid(height, width);
-    }
-
-    public void clearGrid() {
-        cm.clearGrid();
     }
 
 }
